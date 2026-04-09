@@ -7,6 +7,6 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react(), tailwindcss()],
-    base:'/Reagen_Bankshttps/'
+    base:'/Reagen_Banks/'
   };
 });
